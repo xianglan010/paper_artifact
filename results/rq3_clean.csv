@@ -1,0 +1,33 @@
+task,metric,defense,mean_of_30_runs,triggers_with_significant_decrease
+CS,Smoothed BLEU-4,Undefended,13.91,
+CS,Smoothed BLEU-4,LockStep,13.98,0
+CS,Smoothed BLEU-4,OptiSS,13.86,0
+CS,Smoothed BLEU-4,KillBadCode,11.95,3
+CS,FTR,Undefended,0.163,
+CS,FTR,LockStep,0.003,0
+CS,FTR,OptiSS,0.158,0
+CS,FTR,KillBadCode,0.176,0
+CR,BLEU-4,Undefended,68.35,
+CR,BLEU-4,LockStep,68.25,0
+CR,BLEU-4,OptiSS,68.2,0
+CR,BLEU-4,KillBadCode,68.02,0
+CR,EM,Undefended,16.98,
+CR,EM,LockStep,16.92,0
+CR,EM,OptiSS,16.21,2
+CR,EM,KillBadCode,16.93,0
+CR,FTR,Undefended,0.021,
+CR,FTR,LockStep,0.0,0
+CR,FTR,OptiSS,0.013,0
+CR,FTR,KillBadCode,0.022,0
+CM,EM,Undefended,4.77,
+CM,EM,LockStep,4.68,1
+CM,EM,OptiSS,4.73,0
+CM,EM,KillBadCode,4.76,0
+CM,Edit similarity,Undefended,37.67,
+CM,Edit similarity,LockStep,37.62,0
+CM,Edit similarity,OptiSS,37.54,1
+CM,Edit similarity,KillBadCode,37.76,0
+CM,FTR,Undefended,0.008,
+CM,FTR,LockStep,0.003,0
+CM,FTR,OptiSS,0.021,0
+CM,FTR,KillBadCode,0.009,0
